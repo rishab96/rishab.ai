@@ -50,13 +50,13 @@ const socials = [
   {
     id: 1,
     title: "LinkedIn",
-    url: "https://www.linkedin.com/in/mehrarishab",
+    url: "linkedin.com/in/mehrarishab",
     tab: 3,
   },
   {
     id: 2,
     title: "Instagram",
-    url: "https://www.instagram.com/rishontherocks",
+    url: "instagram.com/rishontherocks",
     tab: 3,
   },
 ];
