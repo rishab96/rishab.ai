@@ -35,10 +35,10 @@ const Socials: React.FC = () => {
     checkArg()
   ) : (
     <HelpWrapper data-testid="socials">
-      {socials.map(({ id, title, url, tab }) => (
+      {socials.map(({ id, title, disp, url, tab }) => (
         <CmdList key={title}>
           <Cmd>{`${id}. ${title}`}:</Cmd>
-          <CmdDesc> {url}</CmdDesc>
+          <CmdDesc> {disp}</CmdDesc>
         </CmdList>
       ))}
       <Usage cmd="socials" marginY />
@@ -50,13 +50,15 @@ const socials = [
   {
     id: 1,
     title: "LinkedIn",
-    url: "linkedin.com/in/mehrarishab",
+    disp: "linkedin.com/in/mehrarishab",
+    url: "https://www.linkedin.com/in/mehrarishab",
     tab: 3,
   },
   {
     id: 2,
     title: "Instagram",
-    url: "instagram.com/rishontherocks",
+    disp: "instagram.com/rishontherocks",
+    url: "https://www.instagram.com/rishontherocks",
     tab: 3,
   },
 ];
