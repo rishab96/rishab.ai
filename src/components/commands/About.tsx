@@ -8,15 +8,19 @@ const About: React.FC = () => {
   return (
     <AboutWrapper data-testid="about">
       <p>
-        Hi, my name is <HighlightSpan>Sat Naing</HighlightSpan>!
+        Hi, my name is <HighlightSpan>Rishab Mehra</HighlightSpan>!
       </p>
       <p>
-        I'm <HighlightAlt>a full-stack developer</HighlightAlt> based in Yangon,
-        Myanmar.
+        I am the CTO and co-founder of <HighlightAlt>Pinnacle</HighlightAlt>, a London based AI venture.
       </p>
       <p>
-        I am passionate about writing codes and <br />
-        developing web applications to solve real-life challenges.
+      My objective in life is to innovate and develop products <br />
+      that can directly impact significant populations. I am particularly <br />
+      interested in Computer Vision, Natural Language Processing and <br />
+      their consumer applications. In the past, I have researched in <br />
+      these fields at Stanford, and published in Nature, MLHC and NeurIPS. <br />
+      I have also delivered multiple features at Apple in these fields, which <br />
+      billions use daily, and filed patents related to them.
       </p>
     </AboutWrapper>
   );

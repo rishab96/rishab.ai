@@ -4,11 +4,10 @@ import Echo from "./commands/Echo";
 import Education from "./commands/Education";
 import Email from "./commands/Email";
 import GeneralOutput from "./commands/GeneralOutput";
-import Gui from "./commands/Gui";
+import Patents from "./commands/Patents";
 import Help from "./commands/Help";
-import Welcome from "./commands/Welcome";
 import History from "./commands/History";
-import Projects from "./commands/Projects";
+import Papers from "./commands/Papers";
 import Socials from "./commands/Socials";
 import Themes from "./commands/Themes";
 import { OutputContainer, UsageDiv } from "./styles/Output.styled";
@@ -23,7 +22,7 @@ type Props = {
 const Output: React.FC<Props> = ({ index, cmd }) => {
   const { arg } = useContext(termContext);
 
-  const specialCmds = ["projects", "socials", "themes", "echo"];
+  const specialCmds = ["papers", "socials", "themes", "echo"];
 
   // return 'Usage: <cmd>' if command arg is not valid
   // eg: about tt
@@ -39,14 +38,13 @@ const Output: React.FC<Props> = ({ index, cmd }) => {
           echo: <Echo />,
           education: <Education />,
           email: <Email />,
-          gui: <Gui />,
+          patents: <Patents />,
           help: <Help />,
           history: <History />,
-          projects: <Projects />,
-          pwd: <GeneralOutput>/home/satnaing</GeneralOutput>,
+          papers: <Papers />,
+          pwd: <GeneralOutput>/home/rishab</GeneralOutput>,
           socials: <Socials />,
           themes: <Themes />,
-          welcome: <Welcome />,
           whoami: <GeneralOutput>visitor</GeneralOutput>,
         }[cmd]
       }
