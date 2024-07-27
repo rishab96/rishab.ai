@@ -27,14 +27,15 @@ type Command = {
 }[];
 
 export const commands: Command = [
-  { cmd: "about", desc: "about Rishab Mehra", tab: 5 },
-  { cmd: "papers", desc: "papers I've published", tab: 4 },
-  { cmd: "patents", desc: "patents I have filed", tab: 3 },
-  { cmd: "education", desc: "education background", tab: 1 },
-  { cmd: "email", desc: "email me", tab: 5 },
-  { cmd: "socials", desc: "social accounts", tab: 3 },
-  { cmd: "themes", desc: "check available themes", tab: 4 },
-  { cmd: "help", desc: "check available commands", tab: 6 },
+  { cmd: "about", desc: "about Rishab Mehra", tab: 7 },
+  { cmd: "education", desc: "my education background", tab: 3 },
+  { cmd: "papers", desc: "view papers I've published", tab: 6 },
+  { cmd: "patents", desc: "view patents I have filed", tab: 5 },
+  { cmd: "email", desc: "send an email to me", tab: 7 },
+  { cmd: "socials", desc: "check out my social accounts", tab: 5 },
+  { cmd: "themes", desc: "check available themes", tab: 6 },
+  { cmd: "help", desc: "check available commands", tab: 8 },
+
 ];
 
 type Term = {

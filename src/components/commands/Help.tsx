@@ -33,9 +33,9 @@ const Help: React.FC = () => {
         </CmdList>
       ))}
       <KeyContainer>
-        <div>Tab {generateTabs(7)} =&gt; autocompletes the command</div>
-        <div>Up Arrow {generateTabs(2)} =&gt; go back to previous command</div>
-        <div>Ctrl/Cmd+k {generateTabs(0)} =&gt; clear the terminal</div>
+        <div>Tab {generateTabs(9)} =&gt; autocompletes the command</div>
+        <div>Up Arrow {generateTabs(4)} =&gt; go back to previous command</div>
+        <div>Ctrl/Cmd + k {generateTabs(0)} =&gt; clear the terminal</div>
       </KeyContainer>
     </HelpWrapper>
   );
