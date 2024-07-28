@@ -10,10 +10,14 @@ const Gui: React.FC = () => {
 
   /* ===== check current command makes redirect ===== */
   if (rerender && currentCommand[0] === "patents") {
-    window.open("https://www.patentguru.com/search?inventor=%22Mehra+rishab%22&status=pat&SortBy=pubdate_newest", "_blank");
+    window.open("https://www.patentguru.com/inventor/mehra-rishab", "_blank");
   }
 
-  return <span></span>;
+  return (
+    <Wrapper>
+      <span>patentguru.com/inventor/mehra-rishab</span>
+    </Wrapper>
+  );
 };
 
 export default Gui;

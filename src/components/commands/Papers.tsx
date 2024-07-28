@@ -59,13 +59,13 @@ const projects = [
   {
     id: 2,
     title: "3d point cloud-based visual prediction of icu mobility care activities",
-    desc: "Published in MLHC.",
+    desc: "Published in MLHC",
     url: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=689fJZQAAAAJ&citation_for_view=689fJZQAAAAJ:u5HHmVD_uO8C"
   },
   {
     id: 3,
     title: "Vision-based prediction of ICU mobility care activities using recurrent neural networks",
-    desc: "Published in NeurIPS.",
+    desc: "Published in NeurIPS",
     url: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=689fJZQAAAAJ&citation_for_view=689fJZQAAAAJ:u-x6o8ySG0sC",
   },
 ];
