@@ -1,6 +1,7 @@
 import { useContext } from "react";
 import _ from "lodash";
 import { termContext } from "../Terminal";
+import { Wrapper } from "../styles/Output.styled";
 
 const Gui: React.FC = () => {
   const { history, rerender } = useContext(termContext);
