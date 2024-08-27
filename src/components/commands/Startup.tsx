@@ -16,7 +16,7 @@ const Gui: React.FC = () => {
 
   return (
     <Wrapper>
-      <span>Elevate your mind with Pinnacle, your AI personal trainer. Learn more at www.pinnacle.co and start your journey today.</span>
+      <span>Pinnacle is an AI personal trainer for your mind. Join the waitlist at www.pinnacle.co!</span>
     </Wrapper>
   );
 };
