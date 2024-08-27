@@ -28,6 +28,7 @@ type Command = {
 
 export const commands: Command = [
   { cmd: "about", desc: "about Rishab Mehra", tab: 7 },
+  { cmd: "startup", desc: "about my startup, Pinnacle", tab: 5 },
   { cmd: "education", desc: "my education background", tab: 3 },
   { cmd: "papers", desc: "view papers I've published", tab: 6 },
   { cmd: "patents", desc: "view patents I have filed", tab: 5 },
