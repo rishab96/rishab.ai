@@ -34,14 +34,12 @@ function App() {
     const themeColor = theme.colors?.body;
 
     const metaThemeColor = document.querySelector("meta[name='theme-color']");
-    const maskIcon = document.querySelector("link[rel='mask-icon']");
     const metaMsTileColor = document.querySelector(
       "meta[name='msapplication-TileColor']"
     );
 
     metaThemeColor && metaThemeColor.setAttribute("content", themeColor);
     metaMsTileColor && metaMsTileColor.setAttribute("content", themeColor);
-    maskIcon && maskIcon.setAttribute("color", themeColor);
   }, [selectedTheme]);
 
   const themeSwitcher = (switchTheme: DefaultTheme) => {
